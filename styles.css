@@ -1,0 +1,87 @@
+
+ body {
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+/* Estilo para la sombra brillante */
+.brillante {
+  box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Estilo para el texto con sombra brillante */
+.texto-brillante {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+
+::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1; 
+}
+
+
+#resultado {
+  background-image: url('https://media.istockphoto.com/id/518958826/es/vector/b%C3%BAsqueda-de-informaci%C3%B3n.jpg?s=612x612&w=0&k=20&c=HWgs0gZ46W8f8Zpl5zQJUXXkGjJ_zvAdkxWhPL74t5g=');
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  height: 100%; 
+  padding: 20px;
+}
+
+
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+.titulo-animado {
+  overflow: hidden;
+  border-right: .10em solid orange;
+}
+
+@keyframes escribir {
+  0% {
+    width: 0;
+  }
+}
+
+  
+  
+  

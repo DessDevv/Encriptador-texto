@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Mensajes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+   
+  </style>
+</head>
+<body style="background-image: url('https://i.pinimg.com/originals/7a/c0/f9/7ac0f98f17dd45f93860109027f30026.gif'); background-size: cover;">
+
+  <div class="container mt-5 text-center">
+    <h1 class="titulo-animado texto-brillante">Encriptador de Mensajes</h1>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-4 offset-md-1">
+      <div class="form-group brillante" style="width: 750px;">
+        <label for="texto" class="texto-brillante">Texto:</label>
+        <textarea class="form-control" id="texto" rows="16" placeholder="Ingrese el Texto aquí"></textarea>
+      </div>
+      <div class="form-group brillante" style="width: 750px;">
+        <label for="modo" class="texto-brillante">Modo:</label>
+        <select class="form-control" id="modo">
+          <option value="encriptar" class="texto-brillante">Encriptar</option>
+          <option value="desencriptar" class="texto-brillante">Desencriptar</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group mt-md-0 mt-4 brillante offset-md-2" style="width: 450px;">
+        <label for="resultado" class="texto-brillante">Resultado:</label>
+        <textarea class="form-control" id="resultado" rows="20" readonly>Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.</textarea>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-3 text-center">
+    <button class="btn btn-primary brillante" onclick="procesarTexto()">Procesar</button>
+    <button class="btn btn-success brillante" onclick="copiarTexto()">Copiar</button>
+  </div>
+
+  <script src="script.js"></script>
+
+  <footer class="mt-1 text-center">
+    <div class="container">
+      <p><b>© 2024 Encriptador de Mensajes.  Desarrollado por Carmen Dessiré González Bibiesca.</b>
+        <a href="https://www.linkedin.com/in/dessir%C3%A9-bbsc-b72aa7258/">
+          <i class="fab fa-linkedin fa-2x"></i> 
+        </a>
+        <a href="https://github.com/DessDevv">
+          <i class="fab fa-github fa-2x"></i> 
+        </a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
